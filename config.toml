@@ -1,0 +1,41 @@
+baseurl = "http://halochou.github.io"
+title = "Yang Zhou"
+
+theme = "coder"
+
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Yang Zhou"
+    description = "Yang Zhou's personal website"
+    keywords = "blog,developer,personal"
+    info = "Coder, love cutting-edge"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/halochou/"
+#[[params.social]]
+    #name = "Twitter"
+    #weight = 2
+    #url = "https://twitter.com/johndoe/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 2
+    url = "https://www.linkedin.com/in/zhou-yang-6a548279/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
